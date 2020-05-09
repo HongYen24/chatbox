@@ -1,9 +1,9 @@
 <?php
-$link = pg_connect("host=ec2-52-6-143-153.compute-1.amazonaws.com
-                    dbname=d36fi1m1rhc6ru
-                    user=djgwisrvfqhrpx
+$link = pg_connect("host=ec2-35-171-31-33.compute-1.amazonaws.com
+                    dbname=dcir8dce76on7c
+                    user=gdeglixrbthkwc
                     port=5432
-                    password=d82f1045e62f7d737dbde5d1c755f3df3231d6a84c3bbf08ed34327abd13401b");
+                    password=61b0ba60ee377a7e7170d2e64ee5e8c8a32ef3e3cdc763b4887b67e888a66934");
 if($link === false){
   die("ERROR: cannot connection");
 }
